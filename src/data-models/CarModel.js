@@ -8,7 +8,7 @@ class CarModel {
     }
     getKmPerYear() {
       const currentYear = new Date().getFullYear(); // 2020
-      console.log(currentYear);
+      //console.log(currentYear);
       const yearsOnRoad = currentYear - this.year; 
       return parseInt(this.km / (yearsOnRoad || 1)); // avoid divide by zero
     }
